@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SkillCraft - Empower Your Skills</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <script defer src="script.js"></script>
+  <!-- Back to Top Button -->
+  <button id="backToTop" aria-label="Back to top" title="Back to top">&#8679;</button>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="assets/logo.png" alt="SkillCraft Logo" class="logo-img">
+      </div>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero reveal" id="home">
+    <div class="container hero-content">
+      <h1>Build Your Future with SkillCraft</h1>
+      <p>Real-world tasks. Real growth. Self-paced internships that make an impact.</p>
+      <a href="#about" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about reveal" id="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>At SkillCraft, we believe in learning by doing. Our internship program offers hands-on tasks, no fluff — just practical experience that builds your portfolio and prepares you for real tech jobs.</p>
+      <div class="about-extra">
+        <ul style="max-width:700px;margin:24px auto 0 auto;text-align:left;line-height:1.7;">
+          <li><strong>Mentorship & Guidance:</strong> Get support from experienced professionals who are passionate about helping you grow.</li>
+          <li><strong>Real-World Projects:</strong> Work on industry-relevant assignments that mirror actual workplace challenges.</li>
+          <li><strong>Flexible Learning:</strong> Our self-paced structure lets you learn and contribute on your own schedule, making it easy to balance with studies or other commitments.</li>
+          <li><strong>Community & Networking:</strong> Join a vibrant community of learners, collaborate on projects, and build connections that last beyond your internship.</li>
+          <li><strong>Career Readiness:</strong> We focus on building both your technical and soft skills, so you’re ready to impress future employers.</li>
+        </ul>
+        <p style="max-width:700px;margin:18px auto 0 auto;">Whether you’re a beginner or looking to advance your skills, SkillCraft is your launchpad to a successful tech career. <strong>Start building your future with us today!</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section class="services reveal" id="services">
+    <div class="container">
+      <h2>What We Offer</h2>
+      <p class="services-intro">Explore a variety of opportunities designed to boost your skills and career prospects. Our offerings are tailored for both beginners and advanced learners, ensuring everyone finds their path to success.</p>
+      <div class="cards">
+        <div class="card">
+          <i class="fas fa-code fa-2x"></i>
+          <h3>Web Development</h3>
+          <ul>
+            <li>HTML, CSS, JavaScript, React</li>
+            <li>MERN stack projects</li>
+            <li>Responsive web design</li>
+            <li>Portfolio building</li>
+          </ul>
+        </div>
+        <div class="card">
+          <i class="fas fa-paint-brush fa-2x"></i>
+          <h3>UI/UX Design</h3>
+          <ul>
+            <li>Figma, Adobe XD, prototyping</li>
+            <li>User research & wireframing</li>
+            <li>Accessibility best practices</li>
+            <li>Design system creation</li>
+          </ul>
+        </div>
+        <div class="card">
+          <i class="fas fa-clock fa-2x"></i>
+          <h3>Self-Paced Projects</h3>
+          <ul>
+            <li>Flexible deadlines</li>
+            <li>No meetings, just results</li>
+            <li>Mentor feedback on demand</li>
+            <li>Real-world scenarios</li>
+          </ul>
+        </div>
+        <div class="card">
+          <i class="fas fa-users fa-2x"></i>
+          <h3>Community & Networking</h3>
+          <ul>
+            <li>Peer collaboration</li>
+            <li>Exclusive webinars & events</li>
+            <li>Career guidance</li>
+            <li>Alumni network</li>
+          </ul>
+        </div>
+      </div>
+      <div class="services-extra">
+        <h4>Why Choose SkillCraft?</h4>
+        <ul>
+          <li>Hands-on, practical learning with real deliverables</li>
+          <li>Certificates on completion of each project</li>
+          <li>Access to a supportive mentor community</li>
+          <li>Opportunities to showcase your work to recruiters</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section class="testimonials reveal" id="testimonials">
+    <div class="container">
+      <h2>What Interns Say</h2>
+      <div class="cards">
+        <div class="card">
+          <p>“SkillCraft gave me my first real-world projects. Now I feel job-ready!”</p>
+          <h4>— Riya S., Frontend Intern</h4>
+        </div>
+        <div class="card">
+          <p>“I loved the freedom to learn on my own schedule. Super beginner-friendly.”</p>
+          <h4>— Arjun P., MERN Stack Intern</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact reveal" id="contact">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required aria-label="Your Name" />
+        <input type="email" placeholder="Your Email" required aria-label="Your Email" />
+        <textarea rows="5" placeholder="Your Message" required aria-label="Your Message"></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>© 2025 SkillCraft Technology | All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
