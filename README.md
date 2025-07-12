@@ -19,7 +19,7 @@ This project is a modern, responsive landing page built as part of my internship
 <!-- You can add screenshots here -->
 
 ## Demo
-[Live Demo](#) <!-- Replace # with your GitHub Pages or deployment link if available -->
+[Live Demo] (https://arman-husain.github.io/SCT_WD_1/) 
 
 ## How to Use
 1. Clone the repository:
