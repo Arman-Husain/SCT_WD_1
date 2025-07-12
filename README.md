@@ -1,5 +1,7 @@
  # SkillCraft Internship Task: Responsive Landing Page  
 **Task 1 - Responsive Landing Page completed for SkillCraft Internship**
+![Lighthouse](https://img.shields.io/badge/Lighthouse-92%2F100-brightgreen?style=flat&logo=googlechrome)
+
 
 
 ## Overview
@@ -34,8 +36,32 @@ This project is a modern, responsive landing page built as part of my internship
 - [Font Awesome](https://fontawesome.com/) for icons
 - Google Fonts (Poppins)
 
+## 📊 Lighthouse Report
+
+This project was audited using Google's [Lighthouse](https://developers.google.com/web/tools/lighthouse) to assess its overall web quality and performance.
+
+| Metric                        | Score |
+|------------------------------|-------|
+| 🟢 Performance               | 92    |
+| 🟢 Accessibility             | 94    |
+| 🟢 Best Practices            | 100   |
+| 🟢 SEO                       | 91    |
+| ⚡ First Contentful Paint (FCP) | 92 |
+| ⚡ Largest Contentful Paint (LCP) | +8 |
+
+These results highlight strong performance optimization, accessibility adherence, and industry-standard best practices.
+
+### 🏷️ Lighthouse Badge  
+![Lighthouse](https://img.shields.io/badge/Lighthouse-92%2F100-brightgreen?style=flat&logo=googlechrome)
+
+
 ## About SkillCraft Technology
 SkillCraft is dedicated to empowering learners through hands-on, real-world projects and mentorship. This internship program focuses on practical experience, portfolio building, and career readiness.
+
+## 👨‍💻 About Me
+
+I'm Arman Husain, currently pursuing [Your Degree], with a passion for frontend development and clean UI/UX design. This project is part of my SkillCraft internship, where I'm applying real-world skills in HTML, CSS, and JavaScript. 
+
 
 ## Connect with Me
 - [LinkedIn](www.linkedin.com/in/arman-husain-6b5431345) 
