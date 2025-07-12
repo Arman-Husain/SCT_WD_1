@@ -1,4 +1,4 @@
-# SkillCraft Internship Task: Responsive Landing Page  
+ # SkillCraft Internship Task: Responsive Landing Page  
 **Task 1 - Responsive Landing Page completed for SkillCraft Internship**
 
 
@@ -15,8 +15,7 @@ This project is a modern, responsive landing page built as part of my internship
 - Fully responsive and mobile-friendly
 - Custom branding and logo
 
-## Screenshots
-<!-- You can add screenshots here -->
+
 
 ## Demo
 [Live Demo] (https://arman-husain.github.io/SCT_WD_1/) 
@@ -24,7 +23,7 @@ This project is a modern, responsive landing page built as part of my internship
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/skillcraft-landing-page.git
+   git clone https://github.com/Arman-Husain/skillcraft-landing-page.git
    ```
 2. Open `index.html` in your browser.
 
